@@ -12,5 +12,3 @@ app.get('/proxy', async (req, res) => {
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'test.html'));
 });
-
-app.listen(5500, () => console.log('Server running on http://localhost:5500'));
